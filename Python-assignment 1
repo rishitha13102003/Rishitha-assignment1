@@ -1,0 +1,55 @@
+#list
+ 
+List=[100,12.2,False,"Python"]
+print(List)
+
+# Update
+List[1]=30.5
+print(List)
+
+# Append 
+List.append("work")
+print(List)
+
+#Insert
+List.insert(2,True)
+print(List)
+
+# delete
+del List[1]
+print(List)
+
+#remove
+List.remove(False)
+print(List)
+
+#tuple
+
+tuple=(["flower","model","class",56,345.6])
+print(tuple)
+del tuple
+print(tuple)
+
+#dictionary
+
+Dict1={
+    "Name":["Firstname","Lastname"],
+      "Age":"19",
+      "Program":"Btech",
+      "Branch":"CSE"
+    
+}
+print(Dict1["Branch"])
+
+#update
+Dict1["Age"]=20
+print(Dict1)
+
+del Dict1["Program"]
+print(Dict1)
+
+#step index
+
+b="MSME"
+print(b[0])
+print(b[::-1])
